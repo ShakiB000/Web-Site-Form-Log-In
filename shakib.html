@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<style>
+
+  /*css reset*/
+body{
+  font-family: "Sofia", sans-serif;
+  
+  padding: 0;
+  margin: 0;
+  background: url(shakib.jpg);
+  color: aliceblue;
+}
+.left{
+  font-family: "Sofia", sans-serif;
+position: absolute;
+left: 34px;
+top: 20px;
+/*border: 2px solid red;*/
+
+display: inline-block;
+}
+.left img{
+  width: 80px;
+  filter: invert(90%);
+  border-radius: 49px;
+  
+ 
+
+}
+.left div{
+  font-family: "Sofia", sans-serif;
+  
+  color: rgb(117, 88, 88);
+  font-size: 23px;
+  line-height: 19px;
+  
+
+}
+.mid{
+  display: block;
+  width: 33%;
+  margin: 20px auto;
+  /*border: 2px solid green;*/
+}
+.right{
+  font-family: "Sofia", sans-serif;
+  position: absolute;
+  right: 34px;
+  top: 20px;
+/* border: 2px solid yellowgreen;*/
+ display: inline-block;
+}
+.btn:hover{
+  font-family: "Sofia", sans-serif;
+ background-color: cadetblue;
+ 
+
+}
+.right input {
+  font-family: "Sofia", sans-serif;
+  background-color: rgb(170, 165, 180);
+  margin: 1px;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.navbar{
+  display: inline-block;
+}
+.navbar li{
+  display: inline-block;
+  
+}
+.navbar li a{
+  color: aliceblue;
+  text-decoration: none;
+  padding: 24px 34px;
+  font-size: 19px;
+}
+.navbar li a:hover, .navbar li a.active{
+  text-decoration: underline;
+  color: rgb(23, 233, 233);
+}
+.container{
+  /*border: 2px solid blue;*/
+  margin: 197px 164px;
+  padding: 50px 29px;
+  width: 30%;
+  border-radius: 24px;
+
+}
+.form_group input{
+  font-family: "Sofia", sans-serif;
+  text-align: center;
+  display: block;
+  width: 500px;
+  padding: 2px;
+  border-radius: 14px;
+  margin: -4px auto;
+  font-size: 25px;
+}
+.container h1{
+  text-align: center;
+}
+.container button{
+  font-family: "Sofia", sans-serif;
+  display: block;
+  width: 34%;
+  margin: 19px auto;
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 11px;
+
+}
+
+</style>
+<body>
+
+<header class="header">
+  <div class="left">
+<img src="shakib4.jpg" alt="">
+<div>Shakib Logic</div>
+  </div>
+
+  <div class="mid">
+    <ul class="navbar">
+      <li> <a href="#" class="active"> Home</a></li>
+      <li> <a href="#">About Us</a></li>
+      <li> <a href="#">Contact Us</a> </li>
+      <li> <a href="#">Gmail</a></li>
+     </ul>
+  </div>
+  <div class="right">
+<input type="Search" placeholder="Search" >
+<button class="btn">Sub</button>
+  </div>
+</header>
+<div class="container">
+  <h1>Join Now And sine up</h1>
+  <form action="noaction">
+    <div class="form_group">
+      <input type="text" name="" placeholder="Enter Fist name"><br>
+      <input type="text" name="" placeholder="Enter Fist name"><br>
+      <input type="text" name="" placeholder="Enter Fist name"><br>
+      <input type="text" name="" placeholder="Enter Fist name">
+<button class="btn">Submit</button>
+    </div>
+  </form>
+</div>
+
+
+  
+</body>
+</html>
